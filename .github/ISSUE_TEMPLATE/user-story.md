@@ -1,11 +1,12 @@
-**As a** [role]  
-**I need** [function]  
-**So that** [benefit]  
-      
+**As a** user  
+**I need** a login functionality  
+**So that** I can access my account securely  
+
 ### Details and Assumptions
-    * [document what you know]      
+* Assume that the user is already registered in the system.      
+
 ### Acceptance Criteria     
-    gherkin 
-    Given [some context]
-    When [certain action is taken]
-    Then [the outcome of action is observed]
+```gherkin
+Given the user is on the login page
+When the user enters valid credentials
+Then the user should be redirected to the dashboard
